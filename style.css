@@ -9,7 +9,7 @@
 body {
 
     color: #fff;
-    background: #051129;
+    background: #031b31;
 }
 
 section {
@@ -64,8 +64,7 @@ section {
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background-color: #081b29;
-    /*url(Images/pic7.jpg) no-repeat;*/
+    background-color: #031b31;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -195,86 +194,8 @@ section {
     margin-bottom: 4rem;
 }
 
-/*
-.services {
-    color: aliceblue;
-    font-size: 20px;
-    line-height: 1.4;
-    margin-bottom: 4rem;
-}
 
-
-
-.container {
-    padding: 90px;
-}
-
-.services-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
-}
-
-.services-list div {
-    background-color: transparent;
-    padding: 40px;
-    font-size: 13px;
-    font-weight: 13px;
-    border-right: 10px;
-    border-radius: 20px;
-    transition: background 0.5s, transform 0.5s;
-    box-shadow: 1px 1px 20px #012290f7,
-        1px 1px 40px #012290f7
-}
-
-.services-list div i {
-    font-size: 50px;
-    margin-bottom: 30px;
-}
-
-.services-list div h2 {
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 15px;
-}
-
-.services-list div a {
-    text-decoration: none;
-    color: #000000;
-    font-size: 12px;
-    margin-top: 20px;
-    display: inline-block;
-}
-
-.read {
-    display: inline-block;
-    padding: 12px 28px;
-    background: #0ef;
-    border-radius: 40px;
-    font-size: 16px;
-    color: #081b29;
-    letter-spacing: 1px;
-    text-decoration: none;
-    font-weight: 600;
-    opacity: 0;
-    animation: slideTop 1s ease forwards;
-    animation-delay: 2s;
-    box-shadow: 0 0 5px #0ef,
-        0 0 25px #0ef
-}
-
-.read:hover {
-    box-shadow: 0 0 5px cyan,
-        0 0 25px cyan, 0 0 50px cyan,
-        0 0 100px cyan, 0 0 200px cyan
-}
-
-.services-list div:hover {
-    transform: translateY(-10px);
-}
-*/
-
+/* Skills section */
 
 
 .sub-title {
@@ -294,6 +215,7 @@ section {
     flex-wrap: wrap;
     gap: 30px;
     padding: 20px;
+    
 }
 
 .container1 i {
@@ -345,6 +267,7 @@ section {
     text-align: center;
     font-size: 60px;
     padding-bottom: 70px;
+    
 }
 
 .sub-title1 span {
@@ -376,14 +299,12 @@ section {
 /*  Project section   */
 
 .main-text {
-    padding-top: 130px;
-    margin-top: 200px;
     text-align: center; /* Centering content */
 }
 
 .main-text h2 {
     font-size: 60px;
-    line-height: 1;
+    
 }
 
 .main-text h2 span {
@@ -396,7 +317,7 @@ section {
 
 .portfolio-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(359px, 1fr)); /* Improved responsiveness */
+    grid-template-columns: repeat(3, 1fr); /* Improved responsiveness */
     align-items: center;
     gap: 2.5rem;
 }
@@ -404,7 +325,7 @@ section {
 .portfolio-content .row {
     position: relative;
     border-radius: 2rem;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2); /* Add transparency for softer shadow */
+    box-shadow: 0 0 1rem rgba(68, 62, 62, 0.2); /* Add transparency for softer shadow */
     overflow: hidden;
     display: flex;
     flex-direction: column; /* Ensure images and layers stack vertically */
