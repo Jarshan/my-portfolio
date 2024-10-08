@@ -388,17 +388,26 @@ section {
     color: #0ef;
 }
 
+.Portfolio h2{
+    margin-bottom: 4rem;
+}
+
 .portfolio-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(359px, auto));
+    align-items: center;
+    gap: 2.5rem;
 }
 
-.row {
+.portfolio-content .row{
     position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem ;
     overflow: hidden;
-    border-radius: 8px;
-    cursor: pointer;
+    display: flex;
 }
+
+
 
 .row img {
     width: 100%;
