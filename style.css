@@ -326,6 +326,26 @@ section {
     cursor: pointer;
 }
 
+.sub-title1 {
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 70px;
+}
+
+.sub-title1 span {
+    color: #0ef;
+}
+
+@media (max-width: 768px) {
+    .sub-title1 {
+        font-size: 28px;
+    }
+
+    .container2 i {
+        font-size: 48px;
+    }
+}
+
 
 /* Responsive for mobile devices */
 @media (max-width: 768px) {
