@@ -1,4 +1,3 @@
-
 /* Home section ...............................................................*/
 
 * {
@@ -34,12 +33,13 @@ section {
 }
 
 
-.logo img{
-  
-    height: 30px; /* Adjust the height as needed */
+.logo img {
+
+    height: 30px;
+    /* Adjust the height as needed */
     width: auto;
 
-   
+
     animation: slideRight 1s ease forwards;
 }
 
@@ -66,7 +66,7 @@ section {
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background-color: #031b31; 
+    background-color: #031b31;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -76,7 +76,7 @@ section {
 
 .home-img img {
     width: 35vw;
-   
+
 
 }
 
@@ -174,7 +174,7 @@ section {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 1.5rem;
-    
+
 }
 
 .about-img img {
@@ -185,7 +185,7 @@ section {
 
 .about-text h2 {
     font-size: 60px;
-    
+
 }
 
 .about-text h4 {
@@ -224,7 +224,7 @@ section {
     flex-wrap: wrap;
     gap: 30px;
     padding: 20px;
-    
+
 }
 
 .container1 i {
@@ -253,7 +253,7 @@ section {
 }
 
 .container2 img {
-    
+
     width: 80px;
     height: 90px;
     transition: transform 0.3s ease, color 0.3s ease;
@@ -277,7 +277,7 @@ section {
     font-size: 60px;
     padding-bottom: 50px;
     margin-top: 50px;
-    
+
 }
 
 .sub-title1 span {
@@ -309,12 +309,13 @@ section {
 /*  Project section ........................................................................................  */
 
 .main-text {
-    text-align: center; /* Centering content */
+    text-align: center;
+    /* Centering content */
 }
 
 .main-text h2 {
     font-size: 60px;
-    
+
 }
 
 .main-text h2 span {
@@ -327,7 +328,8 @@ section {
 
 .portfolio-content {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Improved responsiveness */
+    grid-template-columns: repeat(3, 1fr);
+    /* Improved responsiveness */
     align-items: center;
     gap: 2.5rem;
 }
@@ -335,10 +337,12 @@ section {
 .portfolio-content .row {
     position: relative;
     border-radius: 2rem;
-    box-shadow: 0 0 1rem rgba(68, 62, 62, 0.2); /* Add transparency for softer shadow */
+    box-shadow: 0 0 1rem rgba(68, 62, 62, 0.2);
+    /* Add transparency for softer shadow */
     overflow: hidden;
     display: flex;
-    flex-direction: column; /* Ensure images and layers stack vertically */
+    flex-direction: column;
+    /* Ensure images and layers stack vertically */
 }
 
 .row img {
@@ -550,7 +554,7 @@ form textarea {
     margin-top: 70px;
 }
 
-.Last-text p span{
+.Last-text p span {
     color: #0ef;
 }
 
@@ -621,19 +625,21 @@ form textarea {
 
 @keyframes moveUpDown {
     0% {
-      transform: translateY(0);
+        transform: translateY(0);
     }
-    50% {
-      transform: translateY(-15px); /* Moves up */
-    }
-    100% {
-      transform: translateY(0); /* Back to original position */
-    }
-  }
-  
-.home-img img {
-    animation: moveUpDown 2s ease-in-out infinite; /* Infinite loop */
-  }
-  
 
-  
+    50% {
+        transform: translateY(-15px);
+        /* Moves up */
+    }
+
+    100% {
+        transform: translateY(0);
+        /* Back to original position */
+    }
+}
+
+.home-img img {
+    animation: moveUpDown 2s ease-in-out infinite;
+    /* Infinite loop */
+}
