@@ -17,7 +17,7 @@ function handleSubmit(event) {
     const message = document.querySelector('textarea[placeholder="Enter Your Message"]').value;
     
     // Create the mailto link
-    const mailtoLink = `mailto:your-email@example.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
+    const mailtoLink = `mailto:jarshanjauffar@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
         `Name: ${name}\nEmail: ${email}\n\nMessage: ${message}`
     )}`;
     
