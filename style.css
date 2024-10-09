@@ -1,3 +1,6 @@
+
+/* Home section ...............................................................*/
+
 * {
     margin: 0;
     padding: 0;
@@ -30,14 +33,13 @@ section {
     z-index: 100;
 }
 
-.logo {
-    position: relative;
-    font-size: 25px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    cursor: default;
-    opacity: 0;
+
+.logo img{
+  
+    height: 30px; /* Adjust the height as needed */
+    width: auto;
+
+   
     animation: slideRight 1s ease forwards;
 }
 
@@ -164,6 +166,7 @@ section {
         0 0 100px cyan, 0 0 200px cyan
 }
 
+/* About section ..........................................................................*/
 
 .about {
     display: grid;
@@ -200,7 +203,7 @@ section {
 }
 
 
-/* Skills section */
+/* Skills section ................................................................................ */
 
 
 .sub-title {
@@ -301,7 +304,7 @@ section {
     }
 }
 
-/*  Project section   */
+/*  Project section ........................................................................................  */
 
 .main-text {
     text-align: center; /* Centering content */
@@ -401,7 +404,7 @@ section {
     height: 100%;
 }
 
-/*   Contact section */
+/*   Contact section ...................................................................................*/
 
 
 .contact {
