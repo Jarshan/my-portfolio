@@ -181,6 +181,11 @@ section {
 
 .about-text h2 {
     font-size: 60px;
+    
+}
+
+.about-text h4 {
+    font-size: 20px;
 }
 
 .about-text h2 span {
